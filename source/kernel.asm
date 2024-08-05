@@ -216,8 +216,8 @@ not_bas_extension:
 	bin_ext			db 'BIN'
 	bas_ext			db 'BAS'
 
-	kerndlg_string_1	db 'Cannot load and execute MikeOS kernel!', 0
-	kerndlg_string_2	db 'KERNEL.BIN is the core of MikeOS, and', 0
+	kerndlg_string_1	db 'Cannot load and execute kernel!', 0
+	kerndlg_string_2	db 'KERNEL.BIN is a system file, and', 0
 	kerndlg_string_3	db 'is not a normal program.', 0
 
 	ext_string_1		db 'Invalid filename extension! You can', 0
