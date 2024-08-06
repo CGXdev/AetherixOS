@@ -3,7 +3,7 @@
 	jmp short bootloader_start	
 	nop				
 
-OEMLabel		db "AOSBOOT"	
+OEMLabel		db "AOS"	
 BytesPerSector		dw 512		
 SectorsPerCluster	db 1		
 ReservedForBoot		dw 1		
@@ -19,7 +19,7 @@ LargeSectors		dd 0
 DriveNo			dw 0		
 Signature		db 41		
 VolumeID		dd 00000000h	
-VolumeLabel		db "AetherixOS "
+VolumeLabel		db "AOS "
 FileSystem		db "FAT12   "	
 
 bootloader_start:
