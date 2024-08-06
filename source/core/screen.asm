@@ -187,8 +187,8 @@ os_file_selector:
 
 	.buffer		times 1024 db 0
 
-	.help_msg1	db 'Please select a file using the cursor', 0
-	.help_msg2	db 'keys from the list below...', 0
+	.help_msg1	db ' ', 0
+	.help_msg2	db ' ', 0
 
 	.filename	times 13 db 0
 
