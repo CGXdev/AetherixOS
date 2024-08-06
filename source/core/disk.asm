@@ -309,7 +309,7 @@ os_load_file:
 
 	.string_buff	times 12 db 0	
 
-	.err_msg_floppy_reset	db 'os_load_file: Floppy failed to reset', 0
+	.err_msg_floppy_reset	db 'os_load_file: Disk failed to reset', 0
 
 os_write_file:
 	pusha
